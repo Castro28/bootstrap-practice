@@ -21,21 +21,21 @@
   <main>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container-fluid just">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">MyPlace</a>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Browse Friends</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link disabled">Favorites</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -202,12 +202,40 @@
           <section class="text-center pb-5 pt-5 ">
             <a class="text-dark btn btn-light rounded-pill" href="index.html"> <u>Back To Top</u></a>
             <a class="text-dark btn btn-light rounded-pill link-primary" href=""> <u>My Music</u></a>
-            <a class="text-dark btn btn-light rounded-pill" href=""><u>Send Me Somewhere Random</u></a>
+            <a class="text-dark btn btn-light rounded-pill" href=""><u>My Favorites</u></a>
+
+            <div class="d-flex justify-content-center">
+              <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary">1</button>
+                  <button type="button" class="btn btn-primary">2</button>
+                  <button type="button" class="btn btn-primary">3</button>
+                  <button type="button" class="btn btn-primary">4</button>
+                </div>
+              </div>
+            </div>
+            
           </section>
         </div>
       </div>
-
+      
   </main>
+
+  <footer>
+    <div class="card text-center bg-secondary text-white">
+      <div class="card-header">
+        Featured
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Have You Enjoyed This Content</h5>
+        <p class="card-text">With supporting this artist click below &#x1F447;&#x1F3FE; for more people like this. </p>
+        <a href="#" class="btn btn-primary">Common Artists</a>
+      </div>
+      <div class="card-footer text-muted">
+        2 days ago
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
